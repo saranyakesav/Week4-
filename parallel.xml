@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="   Parallel Testing 3-classes and 2-Tests">
+  <test thread-count="3" parallel="tests" name="prallelhwork">
+    <classes>
+      <class name="testNG.Radio"/>
+      <class name="testNG.Launch"/>
+      <class name="testNG.facebook"/>
+    </classes>
+  </test> <!-- prallelhwork -->
+  <test thread-count="5" parallel="tests" name="prallelhwork2">
+    <classes>
+      <class name="testNG.Radio"/>
+      <class name="testNG.Launch"/>
+      <class name="testNG.facebook"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
